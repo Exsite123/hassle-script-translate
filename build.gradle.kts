@@ -19,7 +19,7 @@ kotlin {
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation(libs.wrappers.react)
+                implementation(kotlinWrappers.react)
             }
         }
     }
