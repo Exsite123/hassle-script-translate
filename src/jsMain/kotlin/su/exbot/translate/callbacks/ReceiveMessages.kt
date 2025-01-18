@@ -8,7 +8,7 @@ val regularExpressions = listOf(
     Regex("""^(\{\w+\}\[A\]\{\w+\} )?\(\( (\S+)\[(\d+)\]: (.+) \)\)$"""), // OOC чат
     Regex("""^(\{\w+\}\[A\]\{\w+\} )?- (.+) (\{\w+\})\((\S+)\)\[(\d+)\]"""), // IC чат
 )
-val ignoreLanguages = listOf(mainLanguage, "sr", "bg", "kk", "mk", "be", "mn", "ky", "tg", "tt")
+val ignoreLanguages = listOf(mainLanguage, "sr", "bg", "kk", "mk", "be", "mn", "ky", "tg", "tt", "uk", "sah")
 
 fun onReceiveMessages(text: String, color: Any) {
     for((index, expression) in regularExpressions.withIndex()) {
