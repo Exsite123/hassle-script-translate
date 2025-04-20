@@ -4,7 +4,7 @@ import su.exbot.translate.*
 import su.exbot.translate.translateTextAsync
 
 val regularExpressions = listOf(
-    Regex("""^(\{\w+\}\[\w+\] \{\w+\})?\[(RADMIR|HASSLE)\] (\S+)\[(\d+)\] : \{\w+\}(.+)"""), // /report
+    Regex("""^(\{\w+\}\[\w+\] \{\w+\})?\[(RADMIR|HASSLE)\] (\S+)\[(\d+)\]: \{\w+\}(.+)"""), // /report
     Regex("""^(\{\w+\}\[A\]\{\w+\} )?\(\( (\S+)\[(\d+)\]: (.+) \)\)$"""), // OOC чат
     Regex("""^(\{\w+\}\[A\]\{\w+\} )?- (.+) (\{\w+\})\((\S+)\)\[(\d+)\]"""), // IC чат
 )
